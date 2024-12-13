@@ -1,27 +1,22 @@
 manifestVersion: 1
-id: sparkles-hello-world
-name: Hello World
-tagline: Replace this tagline with your app's tagline
+id: communiy-deconz
+name: Community Deconz
+tagline: zigbee deconz
 icon: https://svgur.com/i/mvA.svg
-category: Development
+category: Home Automation
 version: "1.0.0"
-port: 4000
+port: 8080
 description: >-
-  Add your app's description here.
+  This Docker image containerizes the deCONZ software from Dresden Elektronik, which controls a ZigBee network using a Conbee USB or RaspBee GPIO serial interface. This image runs deCONZ in "minimal" mode, for control of the ZigBee network via the WebUIs ("Wireless Light Control" and "Phoscon") and over the REST API and Websockets, and optionally runs a VNC server for viewing and interacting with the ZigBee mesh through the deCONZ UI.
 
-
-  You can also add newlines!
-
-developer: Umbrel
-website: https://umbrel.com
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+developer: unknown
+website: https://hub.docker.com/r/deconzcommunity/deconz
+submitter: unknown
+submission: https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry
+repo: https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry
+support: https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry
 gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
+
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []
