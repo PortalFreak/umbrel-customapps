@@ -16,6 +16,9 @@ submission: https://docs.github.com/en/packages/working-with-a-github-packages-r
 repo: https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry
 support: https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry
 gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
 
 releaseNotes: >-
   Add what's new in the latest version of your app here.
